@@ -1,0 +1,39 @@
+# trump-archive/requirements.txt
+# Core dependencies
+
+# HTTP / async networking
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+
+# PDF generation
+reportlab>=4.1.0
+
+# Data / analytics
+textblob>=0.17.1
+matplotlib>=3.8.0
+pandas>=2.1.0
+rake-nltk>=1.0.6
+
+# Utilities
+rich>=13.7.0
+tqdm>=4.66.0
+python-dateutil>=2.8.2
+pydantic>=2.5.0
+colorama>=0.4.6
+
+# Optional — sentiment / NLP upgrade
+# transformers>=4.35.0   # Hugging Face (uncomment for production-grade sentiment)
+# torch>=2.1.0            # Required by transformers
+
+# Optional — OCR support
+# pytesseract>=0.3.10     # Requires tesseract binary
+# pdf2image>=1.16.3       # Requires poppler
+
+# Optional — speech-to-text
+# openai-whisper>=20231117
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+ruff>=0.1.0
